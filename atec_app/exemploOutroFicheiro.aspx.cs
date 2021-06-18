@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace atec_app
 {
-    public partial class About : Page
+    public partial class exemploOutroFicheiro : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
