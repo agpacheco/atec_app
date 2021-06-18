@@ -111,6 +111,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
+    <Content Include="Duarte_Bentes.aspx" />
     <Content Include="exemploOutroFicheiro.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -169,6 +170,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Duarte_Bentes.aspx.cs">
+      <DependentUpon>Duarte_Bentes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Duarte_Bentes.aspx.designer.cs">
+      <DependentUpon>Duarte_Bentes.aspx</DependentUpon>
     </Compile>
     <Compile Include="exemploOutroFicheiro.aspx.cs">
       <DependentUpon>exemploOutroFicheiro.aspx</DependentUpon>
