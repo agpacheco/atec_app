@@ -125,6 +125,7 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="gustavo_santos.aspx" />
     <Content Include="pacheco.aspx" />
     <Content Include="pagina_exemplo1.aspx" />
     <Content Include="pagina_exemplo2.aspx" />
@@ -189,6 +190,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="gustavo_santos.aspx.cs">
+      <DependentUpon>gustavo_santos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gustavo_santos.aspx.designer.cs">
+      <DependentUpon>gustavo_santos.aspx</DependentUpon>
     </Compile>
     <Compile Include="pacheco.aspx.cs">
       <DependentUpon>pacheco.aspx</DependentUpon>
