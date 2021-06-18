@@ -111,6 +111,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
+    <Content Include="Duarte_Bentes.aspx" />
     <Content Include="exemploOutroFicheiro.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -157,6 +158,7 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
+    <Content Include="TesteCommitPagina.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -171,6 +173,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Duarte_Bentes.aspx.cs">
+      <DependentUpon>Duarte_Bentes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Duarte_Bentes.aspx.designer.cs">
+      <DependentUpon>Duarte_Bentes.aspx</DependentUpon>
     </Compile>
     <Compile Include="exemploOutroFicheiro.aspx.cs">
       <DependentUpon>exemploOutroFicheiro.aspx</DependentUpon>
@@ -224,6 +233,13 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="TesteCommitPagina.aspx.cs">
+      <DependentUpon>TesteCommitPagina.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TesteCommitPagina.aspx.designer.cs">
+      <DependentUpon>TesteCommitPagina.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>

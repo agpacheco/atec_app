@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="pagina_exemplo1.aspx.cs" Inherits="atec_app.pagina_exemplo1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="TesteCommitPagina.aspx.cs" Inherits="atec_app.TesteCommitPagina" %>
 
 <!DOCTYPE html>
 
@@ -8,8 +8,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>Ola isto é um teste
-            ATEC_PAL
+        <div>
         </div>
     </form>
 </body>
